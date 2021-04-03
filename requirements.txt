@@ -1,4 +1,4 @@
-pywebio
-pandas
-sweetviz
+pywebio==1.2.3
+pandas==1.2.3
+sweetviz==2.1.0
 re2
