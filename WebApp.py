@@ -8,7 +8,7 @@ import re
 
 
 def app():
-    file = file_upload(label='Upload your CSV file', accept='.csv')
+    file = file_upload(label='Upload Your CSV File', accept='.csv')
     content = file['content'].decode('utf-8').splitlines()
 
     df = content_to_pandas(content)
